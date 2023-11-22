@@ -52,3 +52,57 @@ nav ul li a{
     left: 500px;
     height: 400px;
 }
+body{
+
+    background-image: url(blackwhite.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+
+.navigation{
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    margin: auto;
+    width: 100%;
+    
+}
+
+nav{
+    flex: 1;
+    padding-left: 50px;
+}
+
+nav ul li{
+    margin: 0px 30px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.headshot-img{
+    top: 300px;
+    right: 160px;
+    height: 600px;
+    position: absolute;
+}
+
+.twiggy-img{
+    bottom: 300px;
+    left: 500px;
+    height: 400px;
+}
