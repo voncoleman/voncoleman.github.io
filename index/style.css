@@ -1,108 +1,106 @@
-body{
-
-    background-image: url(blackwhite.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+body {
+  background-image: url(blackwhite.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
 }
 
-.navigation{
-    align-items: center;
-    display: flex;
-    height: 15vh;
-    margin: auto;
-    width: 100%;
-    
+.navigation {
+  align-items: center;
+  display: flex;
+  height: 15vh;
+  margin: auto;
+  width: 100%;
 }
 
-nav{
-    flex: 1;
-    padding-left: 50px;
+nav {
+  flex: 1;
+  padding-left: 50px;
 }
 
-nav ul li{
-    margin: 0px 30px;
-    display: inline-block;
-    list-style: none;
+nav ul li {
+  margin: 0px 30px;
+  display: inline-block;
+  list-style: none;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: black;
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-.headshot-img{
-    top: 300px;
-    right: 160px;
-    height: 600px;
-    position: absolute;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.twiggy-img{
-    bottom: 300px;
-    left: 500px;
-    height: 400px;
-}
-body{
-
-    background-image: url(blackwhite.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+/* Main Page Full Stack Developer Text */
+h3 {
+  position: absolute;
+  top: 500px;
+  left: 360px;
+  margin: 20px;
+  font-size: 40px;
 }
 
-.navigation{
-    align-items: center;
-    display: flex;
-    height: 15vh;
-    margin: auto;
-    width: 100%;
-    
+/* Main Page Photos (Headshot, Twiggy, Nameloc */
+.headshot-img {
+  top: 300px;
+  right: 160px;
+  height: 600px;
+  position: absolute;
 }
 
-nav{
-    flex: 1;
-    padding-left: 50px;
+.twiggy-img {
+  bottom: 300px;
+  left: 500px;
+  height: 400px;
 }
 
-nav ul li{
-    margin: 0px 30px;
-    display: inline-block;
-    list-style: none;
+.Nameloc-img {
+  top: 280px;
+  left: 50px;
+  height: 200px;
+  position: absolute;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: black;
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-.headshot-img{
-    top: 300px;
-    right: 160px;
-    height: 600px;
-    position: absolute;
+.project {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 10px;
 }
 
-.twiggy-img{
-    bottom: 300px;
-    left: 500px;
-    height: 400px;
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
+
+.project h2 {
+  margin: 10px 0;
+}
+
+.project p {
+  color: #666;
+}
+
+/* Contact Page CSS */
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+}
+
